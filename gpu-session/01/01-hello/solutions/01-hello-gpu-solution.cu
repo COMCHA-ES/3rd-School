@@ -17,8 +17,8 @@ __global__ void helloGPU()
 
 int main()
 {
-  helloCPU();
 
+helloCPU();
 
   /*
    * Add an execution configuration with the <<<...>>> syntax
@@ -33,4 +33,5 @@ int main()
    */
 
   cudaDeviceSynchronize();
+  
 }

@@ -19,4 +19,6 @@ int main()
    */
 
   printSuccessForCorrectExecutionConfiguration<<<1, 1>>>();
+  cudaDeviceSynchronize();
+
 }
